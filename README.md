@@ -1,4 +1,10 @@
 # 黄种人人脸生成器
+<br />
+&emsp;&emsp;<b>更新：基于StyleGAN2制作的新版生成器消除了生成图片中水滴斑点和扭曲/损坏现象的出现，质量大幅提升。<a href='https://github.com/a312863063/generators-with-stylegan2'>点此查看新版</a>。</b><br />
+--------------------------------------------------------------------------------------------------------------------<br /><br /><br />
+&emsp;&emsp;注明：之前做的一些有意思的人脸生成器，现在全部开源分享出来。它的主要作用是可生成制作各类型的人脸素材，供我们任意使用且无须担心人脸版权的问题。在定制人脸上，开源的全系列生成器包括：<a href='https://github.com/a312863063/seeprettyface-generator-yellow'>黄种人脸生成器</a>，<a href='https://github.com/a312863063/seeprettyface-generator-wanghong'>网红脸生成器</a>，<a href='https://github.com/a312863063/seeprettyface-generator-star'>明星脸生成器</a>，<a href='https://github.com/a312863063/seeprettyface-generator-model'>超模脸生成器</a>和<a href='https://github.com/a312863063/seeprettyface-generator-babies'>萌娃脸生成器</a>，同时<a href='https://github.com/a312863063/seeprettyface-face_editor'>人脸属性编辑器</a>能够对所有这些生成器生成的人物进行调整和改变。<br />
+&emsp;&emsp;此项目已免费开源使用，模型版权拥有者为：www.seeprettyface.com 。<br />
+<br /><br /><br />
 &emsp;&emsp;这是一个用StyleGAN训练出的黄种人人脸生成器，生成效果如下所示。<br /><br /><br />
 
 # 生成示例
@@ -10,6 +16,27 @@
 ## 概览（有筛选）
 ![Image text](https://github.com/a312863063/seeprettyface-generator-yellow/blob/master/examples/64_examples.jpg)
 <br /><br /><br />
+查看更多的1024px生成样本可以前往[这里](https://pan.baidu.com/s/1X2RTqKKhG5mXx0d4HzfZLg)（提取码：A01B
+），是一个含有5万张生成样本的黄种人脸数据集。<br /><br /><br />
+
+# 黄种人脸属性编辑
+&emsp;&emsp;人脸属性编辑支持在年龄、笑容、角度、性别和光照等23个维度上对生成人物作出调整（详细了解请前往[人脸属性编辑器](https://github.com/a312863063/seeprettyface-face_editor)处）。这儿只展示5种基本调整示例。
+## 笑容调整
+![Image text](https://github.com/a312863063/seeprettyface-face_editor/blob/master/examples/smile.jpg)
+<br/><br/>
+## 年龄调整
+![Image text](https://github.com/a312863063/seeprettyface-face_editor/blob/master/examples/age.jpg)
+<br/><br/>
+## 角度调整
+![Image text](https://github.com/a312863063/seeprettyface-face_editor/blob/master/examples/angle_horizontal.jpg)
+<br/><br/>
+## 性别调整
+![Image text](https://github.com/a312863063/seeprettyface-face_editor/blob/master/examples/gender.jpg)
+<br/><br/>
+## 光照调整
+![Image text](https://github.com/a312863063/seeprettyface-face_editor/blob/master/examples/exposure.jpg)
+<br/><br/><br />
+
 # 运行代码
 ## 环境配置
 &emsp;&emsp;Both Linux and Windows are supported, but we strongly recommend Linux for performance and compatibility reasons.<br/>
@@ -21,5 +48,15 @@
 &emsp;&emsp;1.在model文件夹中按照txt地址下载模型，放在该位置<br/>
 &emsp;&emsp;2.运行generate_yellow.py<br/>
 <br /><br /><br />
-## 获取训练集：[点此下载](http://www.seeprettyface.com/mydataset_page2.html)
-![Image text](https://github.com/a312863063/seeprettyface/blob/master/EP001-01.png)
+## 了解技术原理 & 获取训练集：[点此进入](http://www.seeprettyface.com/)
+![Image text](https://github.com/a312863063/seeprettyface/blob/master/EP001-01.png)<br/><br/><br/>
+
+## 小小的赞助~
+<p align="center">
+	<img src="https://github.com/a312863063/seeprettyface/blob/master/sponsor.jpg" alt="Sample"  width="324" height="504">
+	<p align="center">
+		<em>若对您有帮助可给予小小的赞助~</em>
+	</p>
+</p>
+<br/><br/><br/>
+
